@@ -55,8 +55,8 @@
         color: $dark_fg_color;
 
         entry {
-			background-color: shade($dark_bg_color, 1.2);
-			color: $dark_fg_color;
+			background-color: $white;
+			color: $dark_bg_color;
         }
 
         button {
@@ -79,8 +79,8 @@
         }
 
         treeview {
-            background-color: shade($dark_bg_color, 1.2);
-			color: $dark_fg_color;
+            background-color: $white;
+			color: $dark_bg_color;
 
 			&:selected, &:hover {
                 background-color: $selected_bg_color;
